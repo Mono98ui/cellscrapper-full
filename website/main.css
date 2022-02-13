@@ -1,0 +1,97 @@
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    height: 1.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+h1 {
+    background-color: #5b5cad;
+    color: white;
+    text-align: center;
+    size: 10;
+}
+
+.bestSellers{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 0.5px solid grey;
+}
+
+/* card lists */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 20px;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .footer {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:35px;   /* Height of the footer */
+    background: #5b5cad;
+ }
+
+ a {
+  color: #4647aa;
+  font-size: 18px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+}
